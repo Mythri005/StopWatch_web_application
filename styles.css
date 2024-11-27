@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('D:/StopWatch web application/background.jpg!w700wp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: rgba(255, 223, 186, 0.9); /* Example: Light peach color with transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start {
+  background-color: #4caf50;
+  color: white;
+}
+
+#pause {
+  background-color: #ff9800;
+  color: white;
+}
+
+#reset {
+  background-color: #f44336;
+  color: white;
+}
+
+#lap {
+  background-color: #2196f3;
+  color: white;
+}
+
+#laps {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#laps li {
+  margin: 5px 0;
+  padding: 5px 10px;
+  background: #eee;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-lap {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delete-lap:hover {
+  background-color: #d32f2f;
+}
